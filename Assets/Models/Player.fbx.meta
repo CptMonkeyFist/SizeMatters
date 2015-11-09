@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: ee8944a994a820a4d9206def6ffa073a
+timeCreated: 1444513059
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arms
+    100002: Arms_end
+    100004: Head
+    100006: Head_end
+    100008: Leg_L
+    100010: Leg_L_end
+    100012: Leg_R
+    100014: Leg_R_end
+    100016: Mesh.004
+    100018: //RootNode
+    100020: Root
+    100022: Skeleton
+    100024: Torso
+    100026: Camera
+    100028: Empty
+    100030: Empty.001
+    100032: Lamp
+    400000: Arms
+    400002: Arms_end
+    400004: Head
+    400006: Head_end
+    400008: Leg_L
+    400010: Leg_L_end
+    400012: Leg_R
+    400014: Leg_R_end
+    400016: Mesh.004
+    400018: //RootNode
+    400020: Root
+    400022: Skeleton
+    400024: Torso
+    400026: Camera
+    400028: Empty
+    400030: Empty.001
+    400032: Lamp
+    4300000: Mesh.004
+    7400000: Skeleton|Idle
+    7400002: Skeleton|Jump
+    7400004: Skeleton|Run
+    7400006: Mesh.004|Run
+    9500000: //RootNode
+    13700000: Mesh.004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Skeleton|Idle
+      takeName: Skeleton|Idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh.004
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Leg_L
+        weight: 1
+      - path: Skeleton/Root/Leg_L/Leg_L_end
+        weight: 1
+      - path: Skeleton/Root/Leg_R
+        weight: 1
+      - path: Skeleton/Root/Leg_R/Leg_R_end
+        weight: 1
+      - path: Skeleton/Root/Torso
+        weight: 1
+      - path: Skeleton/Root/Torso/Arms
+        weight: 1
+      - path: Skeleton/Root/Torso/Arms/Arms_end
+        weight: 1
+      - path: Skeleton/Root/Torso/Head
+        weight: 1
+      - path: Skeleton/Root/Torso/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton|Jump
+      takeName: Skeleton|Jump
+      firstFrame: 0
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh.004
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Leg_L
+        weight: 1
+      - path: Skeleton/Root/Leg_L/Leg_L_end
+        weight: 1
+      - path: Skeleton/Root/Leg_R
+        weight: 1
+      - path: Skeleton/Root/Leg_R/Leg_R_end
+        weight: 1
+      - path: Skeleton/Root/Torso
+        weight: 1
+      - path: Skeleton/Root/Torso/Arms
+        weight: 1
+      - path: Skeleton/Root/Torso/Arms/Arms_end
+        weight: 1
+      - path: Skeleton/Root/Torso/Head
+        weight: 1
+      - path: Skeleton/Root/Torso/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton|Run
+      takeName: Skeleton|Run
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh.004
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Leg_L
+        weight: 1
+      - path: Skeleton/Root/Leg_L/Leg_L_end
+        weight: 1
+      - path: Skeleton/Root/Leg_R
+        weight: 1
+      - path: Skeleton/Root/Leg_R/Leg_R_end
+        weight: 1
+      - path: Skeleton/Root/Torso
+        weight: 1
+      - path: Skeleton/Root/Torso/Arms
+        weight: 1
+      - path: Skeleton/Root/Torso/Arms/Arms_end
+        weight: 1
+      - path: Skeleton/Root/Torso/Head
+        weight: 1
+      - path: Skeleton/Root/Torso/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
