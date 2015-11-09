@@ -1,10 +1,10 @@
-*Size Matters*
+#Size Matters
 This game was created as a part of a Playfab Game Jam.
 
-*Music*
+##Music
 The music in this game is by Newground's wyver9.
 
-*Controls*
+##Controls
 Left Stick - Movement
 Right Stick - Look
 Right bumper - shoot
